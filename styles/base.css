@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+}
+.navbar a{
+    color: #fff;
+    text-transform:capitalize;
+    font-size: 1.2rem;
+}
+
+.logo{
+    margin-left: 20px;
+}
+.nav{
+    margin-right: 30px;
+}
+.nav li{
+    display: inline;
+    padding-right: 30px;
+}
+.logo a{
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: large;
+    cursor: none;
+}
+
+.navbar ul li a:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px rgb(12, 144, 233) solid;
+}
+main ul li{
+    font-size: 1.5rem;
+    padding: 20px;
+}
