@@ -1,0 +1,38 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+.container{
+    position: relative;
+    height: 100vh;
+    margin: auto;
+}
+.container .card #author{
+    text-align: right;
+    margin-top: 1rem;
+}
+.container .card{
+    position: absolute;
+    height: 30%;
+    width: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color:aliceblue;
+    padding: 1rem;
+    border-radius: 20px;
+  
+}
+.container .card #quote{
+    word-wrap: break-word;
+    margin: 20px;
+}
+.container .card button{
+    margin-top: 10px;
+    margin-left: 35%;
+    padding: 5%;
+    border: 0;
+    border-radius: 10px;
+    background-color: #fff;
+}
